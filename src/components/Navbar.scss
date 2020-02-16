@@ -1,0 +1,26 @@
+.right {
+    float: right !important;
+}
+
+
+html [data-scroll='0'] {
+    .header {
+        background-color: #23272A !important;
+        color: #FFFFFF !important;
+    }
+    
+}
+
+.ant-menu-horizontal {
+    border-bottom: 0px !important;
+}
+
+
+
+// @media only screen and (max-device-width : 640px) {
+//     /* Styles */
+//     }
+    
+//     @media only screen and (max-device-width: 768px) {
+//     /* Styles */
+//     }
