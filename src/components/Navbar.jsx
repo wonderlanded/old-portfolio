@@ -1,7 +1,6 @@
-import { Menu, Icon, Drawer, Button } from 'antd';
+import { Menu, Icon, Drawer } from 'antd';
 import React from 'react'
 import "./Navbar.scss";
-const { SubMenu } = Menu;
 
 export default class App extends React.Component {
 state = { visible: false };
