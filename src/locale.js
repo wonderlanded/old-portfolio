@@ -5,6 +5,8 @@ export default {
         learnmore: '더 알아보기',
         itsme: '저에요, 원더.',
         descriptionOfMe: '자바스크립트를 주로 사용하며, 풀스택까진 아니지만, 백앤드, 프론트앤드, DB 등을 유연하게 다룰 수 있습니다.',
+        moreabout: '프론트 개발을 즐겨하지만, 백앤드뿐만 아니라 디스코드 챗봇, Restful API, Library 등을 개발합니다.',
+        section: '이 문서의 목차도 봐보세요',
         ability: '능력',
         lang: '언어',
         isable: '제가 가능한 언어와 라이브러리 등이 나열하였습니다.',
@@ -33,6 +35,7 @@ export default {
         learnmore: 'Learn More',
         itsme: 'It\'s me, wonderlandpark.',
         descriptionOfMe: 'Mostly using Javascript, and not until full stack, you can flexibly handle the back-end, front-end, DB, etc.',
+        
         ability: 'Ability',
         lang: 'Languages',
         isable: 'Listed able languages and librarys.',

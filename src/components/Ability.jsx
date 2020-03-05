@@ -4,7 +4,7 @@ import { Heading, Subhead } from 'rebass'
 
 const Ability = () => {
     return(
-    <section id='profile'>
+    <section id='ability'>
         <Heading
             fontSize={[5,6,7]}
             color='primary'>

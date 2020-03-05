@@ -3,6 +3,9 @@ import { FormattedMessage } from 'react-intl'
 import { Heading, Subhead } from 'rebass'
 
 const Profile = props => {
+    const show = () => {
+        props.setVisable(true)
+    }
     return (
         <section id='profile'>
         <Heading
@@ -13,7 +16,9 @@ const Profile = props => {
         <Subhead mt={2} fontSize={[1, 2]}>
         <FormattedMessage id="descriptionOfMe" />
         </Subhead>
-        <h2 className='desc'>프론트 개발을 즐겨하지만, 백앤드뿐만 아니라 디스코드 챗봇, </h2>
+        <Subhead mt={2} fontSize={[1, 2]}> <FormattedMessage id="moreabout" /></Subhead>
+        <br/>
+        <Subhead mt={2} fontSize={[1, 2]}><a onClick={show}><FormattedMessage id="section" /></a></Subhead>
         </section>
     )
 }
