@@ -1,11 +1,14 @@
 export default {
     ko: {
-        hello: '안녕하세요, 원더에요.',
-        hi: '대한민국의 아주 평범한 학생 개발자에요.',
+        hello: '원더.',
+        hi: '대한민국의 아주 평범한 중학생 개발자에요.',
         learnmore: '더 알아보기',
         itsme: '저에요, 원더.',
         descriptionOfMe: '자바스크립트를 주로 사용하며, 풀스택까진 아니지만, 백앤드, 프론트앤드, DB 등을 유연하게 다룰 수 있습니다.',
-        
+        ability: '능력',
+        lang: '언어',
+        isable: '제가 가능한 언어와 라이브러리 등이 나열하였습니다.',
+        library: '라이브러리',
         projects: '프로젝트들',
         projectDescription: '아래는 원더가 개발한 프로젝트들입니다',
         commonly: '주로 사용',
@@ -13,7 +16,6 @@ export default {
         able: '가능',
         learning: '학습중',
         practicing: '숙련중',
-
         wonderbotmoto: '디스코드를 더 재밌게.',
         wonderbotdesc: '관리, 도박, 재미, 미니게임 등의 기능이 있는 다기능 디스코드 챗봇',
         onlykorean: '한국어 전용',
@@ -21,14 +23,20 @@ export default {
         overwatchstat: '오버워치 유저의 전적을 닉네임으로 검색하는 NPM 패키지',
         portfolio: 'React로 만든 본인의 포토폴리오',
         seeallingithub: 'Github에서 모두 보기',
+        contact: '연락하기',
+        contactDesc: '저에게 연락하실 수 있는 수단입니다. 디스코드를 선호합니다.',
         copy: 'Copyright 2020 원더, 모든 권리 보유.'
     },
     en: {
-        hello: 'Hello it\'s wonderlandpark.',
+        hello: 'Wonderland, Park',
         hi: 'I\'m a common Student Developer in Korea.',
         learnmore: 'Learn More',
         itsme: 'It\'s me, wonderlandpark.',
         descriptionOfMe: 'Mostly using Javascript, and not until full stack, you can flexibly handle the back-end, front-end, DB, etc.',
+        ability: 'Ability',
+        lang: 'Languages',
+        isable: 'Listed able languages and librarys.',
+        library: 'Librarys',
         projects: 'Projects',
         projectDescription: 'Below are projects developed by me.',
         commonly: 'Commonly Used',

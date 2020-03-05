@@ -1,48 +1,58 @@
 import { Menu, Icon, Drawer } from 'antd';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.scss";
 
-export default class App extends React.Component {
-state = { visible: false };
 
-  showDrawer = () => {
-    this.setState({
-      visible: true,
-    });
+const Navbar = props => {
+  const DrawerVisable = props.drawerVisable
+  const setVisable = props.setVisable 
+  const Dark = props.darkmode
+  const setDark = props.setDark
+  const DarkMode = () => {
+    if(localStorage.dark == 'true') localStorage.dark = false
+    else localStorage.dark = true
+    setDark(localStorage.dark)
+  }
+
+
+  const showDrawer = () => {
+    setVisable(true)
   };
 
-  onClose = () => {
-    this.setState({
-      visible: false,
-    });
+  const onClose = () => {
+    setVisable(false)
   };
+  useEffect(() => {
+    if(localStorage.dark === undefined) localStorage.dark = true
+    setDark(localStorage.dark)
 
-  render() {
+  }, [])
+    
+  
     return (
         <div>
-      <Menu className="dark header" onClick={this.handleClick} mode="horizontal">
+      <Menu className="dark header" mode="horizontal">
         <Menu.Item key="mail">
           <Icon type="home" />
-          WONDERLANDPARK
+          {'wonderlandpark'.toUpperCase()}
         </Menu.Item>
-        <Menu.Item className="right" onClick={this.showDrawer}>
+        <Menu.Item className="right" onClick={showDrawer}>
         <Icon type="menu" />
         </Menu.Item>
       </Menu>
         <Drawer
-          title="Basic Drawer"
+          title={'wonderlandpark'.toUpperCase()}
           placement="right"
-          closable={false}
-          onClose={this.onClose}
-          visible={this.state.visible}
+          closable={true}
+          onClose={onClose}
+          visible={DrawerVisable}
         >
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
+          <a href='#profile'>Profile</a> <br/>
+          <a onClick={DarkMode}>{(Dark == 'true' ? (<><i className='icon sun'/> Toggle Light Mode</>) : (<><i className='icon moon'/> Toggle Dark Mode </>))}</a>
         </Drawer>
 
       </div>
     );
-    
-  }
 }
+
+export default Navbar

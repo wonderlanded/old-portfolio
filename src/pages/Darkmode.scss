@@ -1,0 +1,36 @@
+
+.darkmode {
+    background-color: rgb(0,0,0)
+    }
+
+.darkmode {
+    .project {
+        * {
+            color: white !important;
+        }
+        background-color: #1b1c1d !important;
+        border: none;
+    }
+    * {
+        color: white;
+    }
+    
+    .heading {
+        text-align: center;
+    }
+    
+    h1.title {
+        font-size: 64px;
+        font-weight: bold;
+        line-height: 1.25;
+        margin: 0px;
+    }
+    h2.desc {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.25;
+        margin: 0px;
+        margin-top: 8px;
+    }
+
+}
