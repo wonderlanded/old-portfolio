@@ -67,7 +67,7 @@ export default {
         introduce: 'Introduction',
         introduceDesc: 'This section describes TMI about me.',
         specific: 'If you want to check my ability or my project etc. Click On ',
-        specific2: '',
+        specific2: ' ',
         hobby: 'Hobby',
         game: 'Game',
         movie: 'Movie',
