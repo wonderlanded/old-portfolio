@@ -21,27 +21,31 @@ const Ability = () => {
         </Heading>
         <br/>
         <div className="ui green image label">
-            <i className="icon node js"></i> Node.js
+            <i className="icon node js"/> Node.js (+JSX)
             <a className="detail"><FormattedMessage id="commonly" /></a>
         </div>
         <div className="ui yellow image label">
-            <i className="icon js"></i> Javascript
-            <a className="detail"><FormattedMessage id="uses" /></a>
-        </div>
-        <div className="ui blue image label">
-            <i className="icon html5"></i>HTML5
-            <a className="detail"><FormattedMessage id="uses" /></a>
-        </div>
-        <div className="ui purple image label">
-            <i className="icon sql"></i>SQL
+            <i className="icon js"/> Javascript
             <a className="detail"><FormattedMessage id="uses" /></a>
         </div>
         <div className="ui orange image label">
-            <i className="icon css3"></i>CSS
+            <i className="icon html5"/>HTML5
+            <a className="detail"><FormattedMessage id="uses" /></a>
+        </div>
+        <div className="ui purple image label">
+                SQL
             <a className="detail"><FormattedMessage id="uses" /></a>
         </div>
         <div className="ui blue image label">
-            <i className="icon python"></i>Python
+            <i className="icon css3"/>CSS
+            <a className="detail"><FormattedMessage id="uses" /></a>
+        </div>
+        <div className="ui blue image label">
+        <i className="typescript"/>TypeScript
+            <a className="detail"><FormattedMessage id="learning" /></a>
+        </div>
+        <div className="ui teal image label">
+            <i className="icon python"/>Python
             <a className="detail"><FormattedMessage id="able" /></a>
         </div>
         <div className="ui blue image label">

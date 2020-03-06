@@ -1,33 +1,39 @@
 import React, {useState} from 'react'
 
+import Navbar from '../components/Navbar';
 import Landing from '../components/Landing'
 import Profile from '../components/Profile'
 import Projects from '../components/Projects'
 import Ability from '../components/Ability'
 import Contact from '../components/Contact'
+import Introducing from '../components/Introducing'
+import AboutPage from '../components/AboutPage'
 
 import Footer from '../components/Footer'
 
 import './Main.scss'
 import './Darkmode.scss'
 
+
 const Page = (props) => {
     const [DrawerVisable, setVisable] = useState(false)
     const DarkMode = props.darkmode
     return (
         <div className={(DarkMode == 'true' ? 'darkmode' : 'lightmode')}>
+            <Navbar darkmode={props.darkmode} setDark={props.setDark} drawerVisable={props.drawerVisable} setVisable={props.setVisable} />
             <Landing />
             <div className='ui container'>
                 <Profile drawerVisable={props.drawerVisable} setVisable={props.setVisable}/>
                 <div className='ui divider'/>
-                <br/>
+                <Introducing/>
+                <div className='ui divider'/>
                 <Ability />
                 <div className='ui divider'/>
-                <br/>
                 <Projects />
                 <div className='ui divider'/>
-                <br/>
                 <Contact />
+                <div className='ui divider'/>
+                <AboutPage />
             </div>
             <Footer />
         </div>

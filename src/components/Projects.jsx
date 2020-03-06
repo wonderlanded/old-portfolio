@@ -16,7 +16,7 @@ const Projects = props => {
 <div className="ui four stackable cards">
 <a className="ui fluid card project" href="https://github.com/wonderlandpark/wonderbot">
 <div className="content">
-<div className="center aligned header">Wonder_Bot</div>
+<div className="center aligned header"><i className='icon discord'/>Wonder_Bot</div>
 <div className="center aligned description">
 <p><FormattedMessage id="wonderbotmoto" /></p>
 <p><FormattedMessage id="wonderbotdesc" /></p>
@@ -30,7 +30,7 @@ const Projects = props => {
 </a>
 <a className="ui fluid card project" href="https://github.com/wonderlandpark/wonderlangpark">
 <div className="content">
-<div className="center aligned header">wonderlangpark</div>
+<div className="center aligned header"><i className='icon npm'/>wonderlangpark</div>
 <div className="center aligned description">
 <p><i class="kr flag"></i> <FormattedMessage id="onlykorean" /></p>
 <p><FormattedMessage id="wonderlangpark" /></p>
@@ -44,7 +44,7 @@ const Projects = props => {
 </a>
 <a className="ui fluid card project" href="https://github.com/wonderlandpark/overwatch-stat">
 <div className="content">
-<div className="center aligned header">overwatch-stat</div>
+<div className="center aligned header"><i className='icon npm'/>overwatch-stat</div>
 <div className="center aligned description">
 <p><FormattedMessage id="overwatchstat" /></p>
 </div>
@@ -57,7 +57,7 @@ const Projects = props => {
 </a>
 <a className="ui fluid card project" href="https://github.com/wonderlandpark/portfolio">
 <div className="content">
-<div className="center aligned header">portfolio</div>
+<div className="center aligned header"><i className='icon react'/>portfolio</div>
 <div className="center aligned description">
 <p><FormattedMessage id="portfolio" /></p>
 </div>

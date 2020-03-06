@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Navbar from './components/Navbar';
+
 import Page from './pages/Main'
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
 
   return (
     <div>
-      <Navbar darkmode={Dark} setDark={setDark} drawerVisable={DrawerVisable} setVisable={setVisable} />
       <Page darkmode={Dark} setDark={setDark} drawerVisable={DrawerVisable} setVisable={setVisable}/>
     </div>
     

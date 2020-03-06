@@ -10,7 +10,7 @@ const Navbar = props => {
   const Dark = props.darkmode
   const setDark = props.setDark
   const DarkMode = () => {
-    if(localStorage.dark == 'true') localStorage.dark = false
+    if(localStorage.dark === 'true') localStorage.dark = false
     else localStorage.dark = true
     setDark(localStorage.dark)
   }
@@ -47,14 +47,15 @@ const Navbar = props => {
           onClose={onClose}
           visible={DrawerVisable}
         >
-          <a onClick={DarkMode}>{(Dark == 'true' ? (<><i className='icon sun'/> Toggle Light Mode</>) : (<><i className='icon moon'/> Toggle Dark Mode </>))}</a>
+          <a onClick={DarkMode}>{(Dark === 'true' ? (<><i className='icon sun'/> <FormattedMessage id="lightmode" /></>) : (<><i className='icon moon'/><FormattedMessage id="darkmode" /></>))}</a>
           <div className='ui divider'/>
-          <div>MENU</div>
+           <div>MENU</div>
           <div className="ui bulleted list">
           <a className="item" href='#profile' onClick={onClose}><FormattedMessage id="itsme" /></a>
+          <a className="item" href='#introduce' onClick={onClose}><FormattedMessage id="introduce" /></a>
           <a className="item" href='#ability' onClick={onClose}><FormattedMessage id="ability" /></a>
           <a className="item" href='#projects' onClick={onClose}><FormattedMessage id="projects" /></a>
-          <a className="item" href='#contact' onClick={onClose}><FormattedMessage id="contact" /></a>
+          <a className="item" href='#about' onClick={onClose}><FormattedMessage id="about" /></a>
           </div>
 
           </Drawer>

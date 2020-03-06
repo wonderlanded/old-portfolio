@@ -1,15 +1,21 @@
-
 .darkmode {
-    background-color: rgb(0,0,0)
+    .ant-menu-horizontal, .ant-drawer-wrapper-body, .ant-drawer-header {
+        background-color: black !important;
     }
-
-.darkmode {
+    background-color: black !important;
+    
     .project {
-        * {
+        *, .ant-drawer-title {
             color: white !important;
         }
         background-color: #1b1c1d !important;
         border: none;
+    }
+    .dFHVHZ {
+        color: white;
+    }
+    a {
+        color: #1890ff;;
     }
     * {
         color: white;
@@ -17,6 +23,10 @@
     
     .heading {
         text-align: center;
+    }
+    
+    .item {
+        color: white !important;
     }
     
     h1.title {
