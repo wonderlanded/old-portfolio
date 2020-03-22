@@ -42,7 +42,15 @@ const Ability = () => {
         </div>
         <div className="ui blue image label">
         <i className="typescript"/>TypeScript
-            <a className="detail"><FormattedMessage id="learning" /></a>
+            <a className="detail"><FormattedMessage id="uses" /></a>
+        </div>
+        <div className="ui olive image label">
+        <i className="typescript"/>Shell
+            <a className="detail"><FormattedMessage id="able" /></a>
+        </div>
+        <div className="ui image label">
+        <i className="typescript"/>Deno
+            <a className="detail"><FormattedMessage id="able" /></a>
         </div>
         <div className="ui teal image label">
             <i className="icon python"/>Python

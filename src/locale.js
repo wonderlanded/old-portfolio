@@ -46,11 +46,19 @@ export default {
         overwatchstat: '오버워치 유저의 전적을 닉네임으로 검색하는 NPM 패키지',
         portfolio: 'React로 만든 본인의 포토폴리오',
         seeallingithub: 'Github에서 모두 보기',
+        wonderbot: '원더봇',
+        wonderbottag: '#도박 #관리 #미니게임 #정보',
+        wonderbotDesc: '한국인을 위해 제작된 도박과 관리 기능이 있는 다기능 봇.',
+        money: '도박/미니게임',
+        moneyDesc: '중독성있는 도박기능과 시세가 변동되는 아이템을 구매하거나 판매하여, 가상화폐를 벌 수 있습니다.',
+        moderation: '관리',
+        moderationDesc: '관리 기능은 여러분의 디스코드 서버를 훨씬 편하게 관리하게 도와줍니다.',
+        information: '정보',
+        informationDesc: '명령어를 이용하여 다양한 정보를 불러올 수 있습니다. 또한 시즌(코로나, 월드컵, 올림픽)에 맞춘 기능을 만나보실 수 있습니다.',
         contact: '연락하기',
         contactDesc: '저에게 연락하실 수 있는 수단입니다. 디스코드를 선호합니다.',
         about: '이 페이지에 대하여',
-        aboutDesc: '이 페이지는 ❤️로 제작된 Create React App 이용한 프로젝트입니다.',
-        
+        aboutDesc: '이 </>는 ❤️로 제작된 Create React App 이용한 프로젝트입니다.',
         copy: 'Copyright 2020 원더, 모든 권리 보유.'
     },
     en: {
@@ -100,10 +108,19 @@ export default {
         overwatchstat: 'Searchs Player\'s Battle Tag Only by playername',
         portfolio: 'Portfolio for me made of React',
         seeallingithub: 'See All in Github',
+        wonderbot: 'WonderBot',
+        wonderbottag: '#Gambling #Moderation #Minigames #Information',
+        wonderbotDesc: 'It has gambling and moderation features made for Koreans.',
+        money: 'Gambling / Minigame',
+        moneyDesc: 'You can earn cryptocurrency by buying or selling addictive gambling functions and items with fluctuating market prices.',
+        moderation: 'Moderation',
+        moderationDesc: 'The management function makes managing your discord server much easier.',
+        information: 'Information',
+        informationDesc: 'A variety of information can be retrieved using commands. You can also meet features tailored to the season (corona, world cup, olympics).',
         contact: 'Contact',
         contactDesc: 'These are ways that you can contact me. I prefer Discord.',
         about: 'About This Page',
-        aboutDesc: 'This Page is a Project Created By Create React App with ❤️',
+        aboutDesc: 'This </> is a Project Created By Create React App with ❤️',
         copy: 'Copyright 2020 wonderlandpark, All rights reserved.'    
     }
 }

@@ -8,6 +8,7 @@ import Ability from '../components/Ability'
 import Contact from '../components/Contact'
 import Introducing from '../components/Introducing'
 import AboutPage from '../components/AboutPage'
+import Wonderbot from '../components/Wonderbot'
 
 import Footer from '../components/Footer'
 
@@ -30,6 +31,7 @@ const Page = (props) => {
                 <Ability />
                 <div className='ui divider'/>
                 <Projects />
+                <Wonderbot/>
                 <div className='ui divider'/>
                 <Contact />
                 <div className='ui divider'/>

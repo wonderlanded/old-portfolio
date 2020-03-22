@@ -31,7 +31,7 @@ const Navbar = props => {
   
     return (
         <div>
-      <Menu className="dark header" mode="horizontal">
+      <Menu className="dark header navbar" mode="horizontal">
         <Menu.Item key="mail">
           <Icon type="home" />
           {'wonderlandpark'.toUpperCase()}
@@ -47,6 +47,7 @@ const Navbar = props => {
           onClose={onClose}
           visible={DrawerVisable}
         >
+         
           <a onClick={DarkMode}>{(Dark === 'true' ? (<><i className='icon sun'/> <FormattedMessage id="lightmode" /></>) : (<><i className='icon moon'/><FormattedMessage id="darkmode" /></>))}</a>
           <div className='ui divider'/>
            <div>MENU</div>
@@ -57,10 +58,9 @@ const Navbar = props => {
           <a className="item" href='#projects' onClick={onClose}><FormattedMessage id="projects" /></a>
           <a className="item" href='#about' onClick={onClose}><FormattedMessage id="about" /></a>
           </div>
-
           </Drawer>
+          </div>
 
-      </div>
     );
 }
 

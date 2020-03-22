@@ -12,7 +12,7 @@ const Landing = props => {
             <FormattedMessage id="hello" />
             </Heading>
         <Subhead className='heading' fontSize={[ 5 ]} mt={3}><FormattedMessage id="hi" /></Subhead>
-        <CallToAction href="#profile" mt={3}><FormattedMessage id="learnmore" /></CallToAction>
+        <CallToAction style={{color: 'white'}}href="#profile" mt={3}><FormattedMessage id="learnmore" /></CallToAction>
         <br/>
         <div class="center aligned author">
             <a href='mailto:wonderbotsupport@naver.com'><i class="large envelope icon"></i></a>

@@ -24,3 +24,20 @@ html [data-scroll='0'] {
 //     @media only screen and (max-device-width: 768px) {
 //     /* Styles */
 //     }
+
+.navbar {
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    right: 0;
+    z-index: 1000;
+}
+
+.darkdrawer {
+    background: black
+}
+
+.whitedrawer {
+    background: white;
+}
