@@ -1,23 +1,28 @@
-.darkmode {
-    .ant-menu-horizontal, .ant-drawer-wrapper-body, .ant-drawer-header {
-        background-color: black !important;
+ 
+    .darkmode {
+        background-color: black;
+        color: white
     }
-    background-color: black !important;
+    .darkmode .ant-menu-horizontal, .ant-drawer-wrapper-body, .ant-drawer-header {
+        background-color: black !important;
     
-    .project {
-        *, .ant-drawer-title {
+    }
+    
+     
+        .darkmode .project *, .ant-drawer-title {
             color: white !important;
         }
-        background-color: #1b1c1d !important;
-        border: none;
-    }
-    .dFHVHZ {
+        .darkmode .project {
+            background-color: #1b1c1d !important;
+            border: none;
+        }
+    .darkmode .dFHVHZ {
         color: white;
     }
     a {
         color: #1890ff;;
     }
-    * {
+    .darkmode * {
         color: white;
     }
     
@@ -25,7 +30,7 @@
         text-align: center;
     }
     
-    .item {
+    .darkmode .item {
         color: white !important;
     }
     
@@ -43,4 +48,3 @@
         margin-top: 8px;
     }
 
-}

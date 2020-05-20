@@ -5,6 +5,7 @@ import { Heading, Subhead } from 'rebass'
 const Wonderbot = () => {
     return( 
     <section id='wonderbot'>
+        <br/><br/>
         <Subhead mt={2} fontSize={[1, 2]} style={{color: 'gray'}}>
             <FormattedMessage id="wonderbottag"/>
         </Subhead>
@@ -13,6 +14,8 @@ const Wonderbot = () => {
             color='primary'>
                 <FormattedMessage id="wonderbot" />
         </Heading>
+        <a href="https://wonderbot.xyz"><i className="icon globe"/>Website</a> {" | "}
+        <a href="https://github.com/wonderlandpark/wonderbot"><i className="icon github"/> Github</a>
         <Subhead mt={2} fontSize={[1, 2]}>
             <FormattedMessage id="wonderbotDesc" />
         </Subhead>
@@ -37,6 +40,7 @@ const Wonderbot = () => {
             <FormattedMessage id="informationDesc" />
         </Subhead>
         <img src="./images/wonderbot-corona.png"/>
+        <br/>
     </section>
     )
 }

@@ -1,0 +1,30 @@
+.right {
+    float: right !important;
+}
+
+
+
+
+.ant-menu-horizontal {
+    border-bottom: 0px !important;
+}
+
+
+
+
+.navbar {
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    right: 0;
+    z-index: 1000;
+}
+
+.darkdrawer {
+    background: black
+}
+
+.whitedrawer {
+    background: white;
+}

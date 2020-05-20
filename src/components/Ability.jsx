@@ -44,6 +44,10 @@ const Ability = () => {
         <i className="typescript"/>TypeScript
             <a className="detail"><FormattedMessage id="uses" /></a>
         </div>
+        <div className="ui teal image label">
+            <i className="icon vuejs"/> Vue.js
+            <a className="detail"><FormattedMessage id="uses" /></a>
+        </div>
         <div className="ui olive image label">
         <i className="typescript"/>Shell
             <a className="detail"><FormattedMessage id="able" /></a>
@@ -83,6 +87,7 @@ const Ability = () => {
         <div class="ui bulleted list">
             <div class="item">React</div>
             <div class="item">react-router</div>
+            <div class="item">vue.js</div>
             <div class="item">ejs</div>
             <div class="item">jquery</div>
             <div class="item">bootstrap</div>
@@ -111,6 +116,7 @@ const Ability = () => {
             <div class="item">axios</div>
             <div class="item">node-fetch</div>
         </div>
+        <a href="https://sourcerer.io/wonderlandpark">Sourcerer에서 자세히보기...</a>
     </section>
     )
 }

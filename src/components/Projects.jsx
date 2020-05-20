@@ -14,7 +14,7 @@ const Projects = props => {
         </Subhead>
 <br/>
 <div className="ui four stackable cards">
-<a className="ui fluid card project" href="https://github.com/wonderlandpark/wonderbot">
+<a className="ui fluid card project" href="#wonderbot">
 <div className="content">
 <div className="center aligned header"><i className='icon discord'/>Wonder_Bot</div>
 <div className="center aligned description">
@@ -24,29 +24,28 @@ const Projects = props => {
 </div>
 <div className="extra content">
 <div className="center aligned author"> 
-<i className="github icon"></i> Github
+<FormattedMessage id="seemore" />
 </div>
 </div>
 </a>
-<a className="ui fluid card project" href="https://github.com/wonderlandpark/wonderlangpark">
+<a className="ui fluid card project" href="#koreanbots">
 <div className="content">
-<div className="center aligned header"><i className='icon npm'/>wonderlangpark</div>
+<div className="center aligned header"><i className='icon react'/>koreanbots</div>
 <div className="center aligned description">
-<p><i class="kr flag"></i> <FormattedMessage id="onlykorean" /></p>
-<p><FormattedMessage id="wonderlangpark" /></p>
+<p><FormattedMessage id="koreanbots" /></p>
 </div>
 </div>
 <div className="extra content">
 <div className="center aligned author">
-<i className="github icon"></i> GitHub
+<FormattedMessage id="seemore" />
 </div>
 </div>
 </a>
-<a className="ui fluid card project" href="https://github.com/wonderlandpark/overwatch-stat">
+<a className="ui fluid card project" href="https://github.com/wonderlandpark/phonepare">
 <div className="content">
-<div className="center aligned header"><i className='icon npm'/>overwatch-stat</div>
+<div className="center aligned header"><i className='icon vuejs'/>phonepare</div>
 <div className="center aligned description">
-<p><FormattedMessage id="overwatchstat" /></p>
+<p><FormattedMessage id="phonepare" /></p>
 </div>
 </div>
 <div className="extra content">
@@ -73,7 +72,7 @@ const Projects = props => {
 <a className="ui secondary button" href="https://github.com/wonderlandpark?tab=repositories">
 <i className="github icon"></i> <FormattedMessage id="seeallingithub" />
 </a>
-</div>
+</div><br/>
         </section>
     )
 }

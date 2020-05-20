@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Page darkmode={Dark} setDark={setDark} drawerVisable={DrawerVisable} setVisable={setVisable}/>
-    </div>
+    </div>  
     
   )
 }

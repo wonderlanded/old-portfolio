@@ -9,11 +9,13 @@ import Contact from '../components/Contact'
 import Introducing from '../components/Introducing'
 import AboutPage from '../components/AboutPage'
 import Wonderbot from '../components/Wonderbot'
+import Koreanbots from '../components/Koreanbots';
+
 
 import Footer from '../components/Footer'
 
-import './Main.scss'
-import './Darkmode.scss'
+import './Main.css'
+import './Darkmode.css'
 
 
 const Page = (props) => {
@@ -32,6 +34,8 @@ const Page = (props) => {
                 <div className='ui divider'/>
                 <Projects />
                 <Wonderbot/>
+                <div className='ui divider'/>
+                <Koreanbots/>
                 <div className='ui divider'/>
                 <Contact />
                 <div className='ui divider'/>

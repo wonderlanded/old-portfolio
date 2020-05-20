@@ -1,7 +1,7 @@
 import { Menu, Icon, Drawer } from 'antd';
 import { FormattedMessage } from 'react-intl'
 import React, { useEffect, useState } from 'react'
-import "./Navbar.scss";
+import "./Navbar.css";
 
 
 const Navbar = props => {

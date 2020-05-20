@@ -22,7 +22,7 @@ const Contact = () => {
     </div>
     <div class="item">
         <i class="mail icon"></i>
-        <div class="content"> Mail: <a href="mailto:wonderbotsupport@naver.com">wonderbotsupport@naver.com</a>
+        <div class="content"> Mail: <a href="mailto:wonderlandpark@callisto.team">wonderlandpark@callisto.team</a>
         </div>
     </div>
     <div class="item">
@@ -37,7 +37,7 @@ const Contact = () => {
     </div>
     <div class="item">
         <i class="code icon"></i>
-        <div class="content"> Sourcerer: <a href="https://sourcerer.io/wonderlandpark">wonderlandpark</a>
+        <div class="content">Sourcerer: <a href="https://sourcerer.io/wonderlandpark">wonderlandpark</a>
         </div>
     </div>
     <div class="item">
