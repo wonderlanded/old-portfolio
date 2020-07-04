@@ -11,8 +11,8 @@ const Profile = props => {
         <Heading
         fontSize={[ 5, 6, 7 ]}
         color='primary'>
-        <FormattedMessage id="itsme" />
-    </Heading>
+            <FormattedMessage id="itsme" />
+        </Heading>
         <Subhead mt={2} fontSize={[1, 2]}>
         <FormattedMessage id="descriptionOfMe" />
         </Subhead>

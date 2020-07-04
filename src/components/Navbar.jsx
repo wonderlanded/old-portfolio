@@ -31,7 +31,7 @@ const Navbar = props => {
   
     return (
         <div>
-      <Menu className="dark header navbar" mode="horizontal">
+      <Menu className="dark header navbar" mode="horizontal" theme="light">
         <Menu.Item key="mail">
           <Icon type="home" />
           {'wonderlandpark'.toUpperCase()}

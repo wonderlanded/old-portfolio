@@ -87,6 +87,7 @@ const Ability = () => {
         <div class="ui bulleted list">
             <div class="item">React</div>
             <div class="item">react-router</div>
+            <div class="item">Next.js</div>
             <div class="item">vue.js</div>
             <div class="item">ejs</div>
             <div class="item">jquery</div>
@@ -94,6 +95,7 @@ const Ability = () => {
             <div class="item">semantic-ui</div>
             <div class="item">rebass</div>
             <div class="item">antd</div>
+            <div class="item">material-ui</div>
         </div>
         <br/>
         <Heading
@@ -104,6 +106,7 @@ const Ability = () => {
         <div class="ui bulleted list">
             <div class="item">knex</div>
             <div class="item">mysql</div>
+            <div class="item">mongodb</div>
         </div>
         <br/>
         <Heading
@@ -116,7 +119,7 @@ const Ability = () => {
             <div class="item">axios</div>
             <div class="item">node-fetch</div>
         </div>
-        <a href="https://sourcerer.io/wonderlandpark">Sourcerer에서 자세히보기...</a>
+        <a href="https://sourcerer.io/wonderlandpark">...</a>
     </section>
     )
 }

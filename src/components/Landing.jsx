@@ -15,7 +15,7 @@ const Landing = props => {
         <CallToAction style={{color: 'white'}}href="#profile" mt={3}><FormattedMessage id="learnmore" /></CallToAction>
         <br/>
         <div class="center aligned author">
-            <a href='mailto:wonderbotsupport@naver.com'><i class="large envelope icon"></i></a>
+            <a href='mailto:wonderlandpark@callisto.team'><i class="large envelope icon"></i></a>
             <a href='https://invite.gg/wonderbot'><i class="large discord icon"></i></a>
             <a href='https://github.com/wonderlandpark'><i class="large github icon"></i></a>
         </div>

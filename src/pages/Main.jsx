@@ -10,8 +10,7 @@ import Introducing from '../components/Introducing'
 import AboutPage from '../components/AboutPage'
 import Wonderbot from '../components/Wonderbot'
 import Koreanbots from '../components/Koreanbots';
-
-
+import Phonepare from '../components/Phonepare';
 import Footer from '../components/Footer'
 
 import './Main.css'
@@ -36,6 +35,8 @@ const Page = (props) => {
                 <Wonderbot/>
                 <div className='ui divider'/>
                 <Koreanbots/>
+                <div className='ui divider'/>
+                <Phonepare/>
                 <div className='ui divider'/>
                 <Contact />
                 <div className='ui divider'/>
