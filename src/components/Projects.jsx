@@ -41,7 +41,7 @@ const Projects = props => {
 </div>
 </div>
 </a>
-<a className="ui fluid card project" href="https://github.com/wonderlandpark/phonepare">
+<a className="ui fluid card project" href="#phonepare">
 <div className="content">
 <div className="center aligned header"><i className='icon vuejs'/>phonepare</div>
 <div className="center aligned description">
@@ -50,7 +50,7 @@ const Projects = props => {
 </div>
 <div className="extra content">
 <div className="center aligned author">
-<i className="github icon"></i> GitHub
+<FormattedMessage id="seemore" />
 </div>
 </div>
 </a>

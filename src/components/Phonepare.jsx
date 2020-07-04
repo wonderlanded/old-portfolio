@@ -15,7 +15,7 @@ const Phonepare = () => {
                 PhonePare
         </Heading>
         <a href="https://phonepare.cf"><i className="icon globe"/>Website</a> {" | "}
-        <a href="https://github.com/wonderlandpark/phonepare"><i className="icon github"/> Github</a> {" | "}
+        <a href="https://github.com/wonderlandpark/phonepare"><i className="icon github"/> Github</a>
         <br/>
         <Subhead mt={2} fontSize={[4, 5]}>
             <FormattedMessage id="phonepareIntro"/>
